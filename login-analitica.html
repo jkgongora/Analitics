@@ -13,7 +13,8 @@
     function  validar(){
 
         var f = document.form;
-        var URLactual = "estadisticas-of.html";
+        var URLactual = "https://jkgongora.github.io/Analitics/estadisticas-of.html";
+        var inicio = "https://jkgongora.github.io/Analitics/login-analitica.html";
 
         var username = document.getElementById("username").value;
 
@@ -30,9 +31,9 @@
   
             }
             else {
-
+              
                alert("Contraseña incoreccta");
-               f.action  = "https://jkgongora.github.io/Analitics/login-analitica.html";
+               f.action  = inicio;
              }
 
  return true;
